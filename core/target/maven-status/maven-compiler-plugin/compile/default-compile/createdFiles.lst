@@ -1,0 +1,10 @@
+com\up4distribution\core\service\Service.class
+com\up4distribution\core\validation\Validator.class
+com\up4distribution\core\model\AbstractModel.class
+com\up4distribution\core\repository\Repository.class
+com\up4distribution\core\model\Entity.class
+com\up4distribution\core\model\Model.class
+com\up4distribution\core\model\AbstractEntity.class
+com\up4distribution\core\presenter\Page.class
+com\up4distribution\core\controller\Controller.class
+com\up4distribution\core\exception\BaseException.class

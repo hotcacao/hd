@@ -1,0 +1,5 @@
+App.class
+com\up4distribution\cam\model\impl\DefaultAccount.class
+com\up4distribution\cam\model\User.class
+com\up4distribution\cam\model\impl\DefaultUser.class
+com\up4distribution\cam\model\Account.class

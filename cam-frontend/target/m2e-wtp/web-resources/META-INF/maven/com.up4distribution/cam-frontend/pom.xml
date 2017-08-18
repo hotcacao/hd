@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.up4distribution</groupId>
+        <artifactId>bem-software</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>cam-frontend</artifactId>
+    <packaging>war</packaging>
+    <name>cam-frontend Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.uri>${project.baseUri}/../</project.uri>
+        <junit.version>4.11</junit.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <fork>true</fork>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <artifactId>cam</artifactId>
+            <groupId>com.up4distribution</groupId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+</project>
